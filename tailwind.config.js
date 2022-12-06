@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        texture: "url('./assets/topo.jpg')",
+      },
+      colors: {
+        beige: "#fff4e4",
+        slightWhite: "#f0f6ee",
+      },
+    },
   },
   plugins: [],
 };
