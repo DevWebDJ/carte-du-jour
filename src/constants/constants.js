@@ -13,14 +13,20 @@ export const sauces = [
   {
     id: 1,
     title: "Sauce tomate",
+    icon: "./assets/sauces/tomatoSauce.png",
+    price:""
   },
   {
     id: 2,
     title: "Sauce blanche",
+    icon: "./assets/sauces/whiteSauce.png",
+    price:""
   },
   {
     id: 3,
     title: "Sauce fromagère",
+    icon: "./assets/sauces/cheeseSauce.png",
+    price: 150,
   },
 ];
 

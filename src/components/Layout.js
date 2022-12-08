@@ -24,7 +24,7 @@ const Layout = () => {
           </p>
           <hr />
         </div>
-        <div className="mt-5 flex items-start justify-end ml-5">
+        <div className="mt-5 flex items-start justify-end ml-5 ">
           <h1 className="font-poppins flex-1 pt-2 font-bold">Sauce</h1>
           <div className="flex-1">
           <Sauce />

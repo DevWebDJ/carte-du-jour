@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        texture: "url('./assets/topo.jpg')",
+        texture: "url('./assets/topo.png')",
       },
       colors: {
         beige: "#fff4e4",
