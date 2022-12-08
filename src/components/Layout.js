@@ -2,6 +2,7 @@ import React from "react";
 import pizza from "../assets/pizza.jpg";
 import logo from "../assets/logoHalf.png";
 import Sauce from "./Sauce";
+import Viande from "./Viande";
 
 const Layout = () => {
   return (
@@ -24,10 +25,17 @@ const Layout = () => {
           </p>
           <hr />
         </div>
-        <div className="mt-5 flex items-start justify-end ml-5 ">
+        <div className="my-5 flex items-start justify-end ml-5 ">
           <h1 className="font-poppins flex-1 pt-2 font-bold">Sauce</h1>
           <div className="flex-1">
-          <Sauce />
+            <Sauce />
+          </div>
+        </div>
+        <hr />
+        <div className="mt-5 flex items-start justify-end ml-5 ">
+          <h1 className="font-poppins flex-1 pt-2 font-bold">Viande</h1>
+          <div className="flex-1">
+            <Viande />
           </div>
         </div>
       </div>
